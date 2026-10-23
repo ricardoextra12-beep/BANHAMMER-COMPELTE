@@ -280,7 +280,7 @@ public final class AdminPanel {
 					p.closeContainer();
 					return true;
 				})
-				.cmd(15, Role.ADMIN, Items.COPPER_BLOCK, "Bliksem recht op " + name, ChatFormatting.DARK_RED,
+				.cmd(15, Role.ADMIN, Items.IRON_BLOCK, "Bliksem recht op " + name, ChatFormatting.DARK_RED,
 						"execute at " + name + " run summon minecraft:lightning_bolt ~ ~ ~")
 
 				.cmd(19, Role.ADMIN, Items.IRON_SWORD, "Survival voor " + name, ChatFormatting.GRAY, "gamemode survival " + name)
